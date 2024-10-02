@@ -34,6 +34,10 @@ The dataset used consists of labeled text comments with two categories. Each com
 - comment: The text sequence (comment).
 - label: The corresponding label (0 or 1).
 
+You can download the dataset from the following link:
+
+[Sarcasm on Reddit](https://www.kaggle.com/datasets/danofer/sarcasm?select=train-balanced-sarcasm.csv)  <!-- Replace with actual dataset URL -->
+
 ## BERT Model
 In the first part of the project, we leverage the pre-trained BERT model for sequence classification. The BERT tokenizer is used to convert the text into tokens, and the BertForSequenceClassification model is fine-tuned on the dataset.
 
